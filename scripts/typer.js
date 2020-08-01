@@ -1,5 +1,11 @@
 console.log('Typer script loaded!');
 
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Loader Started");
+    document.getElementById('loader-wrapper').style.display = "none";
+    console.log("Loader Stoped");
+});
+
 
 
 const TypeWriter = function(txtElement, words, wait = 2000){
