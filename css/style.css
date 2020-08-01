@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: 14px;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+.container{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    text-shadow:0px 3px #161515;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-shadow:0px 3px #161515;
+}
+
+.txt-type > .txt{
+    border-right: 0.2rem solid #161515;
+}
+
+.social-container{
+    position: absolute;
+    display: inline-block;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgb(22, 21, 21);
+    padding: 1rem 1rem;
+    opacity: 70%;
+    border-radius: 10px;
+  
+}
+
+.works-container{
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+
+.works-container a{
+    background-color: rgb(20, 20, 20);
+    opacity: 70%;
+    border-radius: 10px;
+   color: white;
+   margin-right: 0.8rem;
+   font-size: 1.5rem;
+   margin-bottom: 0.5rem;
+   text-decoration: none;
+    padding: 1rem 1rem;
+   margin-right: 1.5rem;
+}
+
+.works-container a:hover{
+    background-color: rgb(243, 76, 76);
+    transition: ease-out 0.25s;
+    opacity: 70%;
+    border-radius: 10px;
+   color: white;
+   margin-right: 0.8rem;
+   font-size: 1.5rem;
+   margin-bottom: 0.5rem;
+   text-decoration: none;
+    padding: 1rem 1rem;
+   margin-right: 1.5rem;
+}
+
+.social-container a{
+    margin-right: 1rem;
+}
+
+.social-container a img:hover{
+    width: 48px;
+    height: 48px;
+    transition: ease-out 0.3s;
+}
+
+@media(min-width: 700px){
+    h1{
+        font-family: 'Raleway', sans-serif;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 120px;
+    }
+}
+
+@media(min-width: 700px){
+    .social-container a{
+        margin-right: 2rem;
+    }
+}
+
+@media(min-width: 700px){
+    .social-container a img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media(min-width: 700px){
+    .social-container a img:hover{
+        width: 56px;
+        height: 56px;
+        transition: ease-out 0.3S;
+    }
+}
+
+@media(min-width: 700px){
+    .works-container{
+        position: absolute;
+        display: inline-block;
+        bottom: 1rem;
+        left: 1rem;
+        background-color: rgb(22, 21, 21);
+        padding: 1rem 1rem;
+        opacity: 70%;
+        border-radius: 10px;
+    }
+}
+
+ @media(min-width: 700px){
+    .works-container a{
+        background-color: #171616;
+        border-radius: 0px;
+        color: white;
+        margin-right: 0.8rem;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+        padding: 1rem 1rem;
+        margin-right: 1.5rem;
+     }
+}
+
+
+
+@media(min-width: 700px){
+    .works-container a:hover{
+        background-color: #171616;
+        transition: ease-out 0.25s;
+        opacity: 70%;
+        border-radius: 10px;
+       color: rgb(243, 76, 76);
+       margin-right: 0.8rem;
+       font-size: 1.5rem;
+       margin-bottom: 0.5rem;
+       text-decoration: none;
+        padding: 1rem 1rem;
+       margin-right: 1.5rem;
+    }
+}
+
+
+
