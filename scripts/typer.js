@@ -1,8 +1,9 @@
 console.log('Typer script loaded!');
 
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     console.log("Loader Started");
     document.getElementById('loader-wrapper').style.display = "none";
+    document.getElementById('loader-wrapper').style.visibility = "hidden";
     console.log("Loader Stoped");
 });
 
